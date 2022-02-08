@@ -1,0 +1,92 @@
+body {
+  color: $secondaryColor;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.showcase-content {
+  h1 {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+    @media #{$mq-960-down} {
+      font-size: 3.7rem;
+      line-height: 1;
+    }
+  }
+  p {
+    font-size: 1.9rem;
+    color: $white;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $white;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+    @media #{$mq-960-down} {
+      font-size: 1.5rem;
+    }
+  }
+}
+.tabs {
+  p {
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+  }
+}
+.tab-item {
+  .fas {
+    font-size: 5em;
+    @media #{$mq-960-down} {
+      font-size: 3em;
+    }
+  }
+}
+.footer {
+  color: $grey;
+  a {
+    color: $grey;
+    font-size: 0.9rem;
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
+}
+//Global texts
+.text-lg {
+  color: $white;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  @media #{$mq-960-down} {
+    font-size: 1.3rem;
+  }
+}
+.text-xl {
+  color: $white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  @media #{$mq-960-down} {
+    font-size: 1.5rem;
+  }
+}
+.text-center {
+  text-align: center;
+  color: $white;
+}
+.text-dark {
+  color: $grey;
+}
+.text-md {
+  font-size: 1.3rem;
+  color: $white;
+  margin-bottom: 1rem;
+  @media #{$mq-960-down} {
+    font-size: 1rem;
+  }
+}
+.text-cap {
+  text-transform: uppercase;
+}
+@media #{$mq-960-down} {
+  .hide-sm {
+    display: none;
+  }
+}
